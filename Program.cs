@@ -10,7 +10,8 @@ namespace WebWordCounter
 {
     public class Program
     {
-        public static XXXXXXXXXX Task Main()
+        // EJERCICIO 1: Resuelto por @cjimenecue
+        public static async Task Main()
         {
             string url = null;
             string w = null;
