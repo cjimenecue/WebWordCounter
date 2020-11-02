@@ -34,9 +34,10 @@ namespace WebWordCounter
 
                 // EJERCICIO 2: Resuelto por @Xizurdiagagdam1
                 
-                string[] words = task1.Result;                
-                
-                XXXXXXXXXX Task.Run(() => {
+                string[] words = task1.Result;      
+
+                // EJERCICIO 3: Resuelto por @rgonzalezrdam1
+                await Task.Run(() => {
                     n = GetCountForWord(words, w);
                 });
                 
